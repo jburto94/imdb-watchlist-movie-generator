@@ -1,0 +1,15 @@
+{
+  "name": "Imdb Watchlist Randomizer",
+  "version": "1.0",
+  "description": "Chrome extension that randomizes the imdb user's watchlist. Works better if you scroll through your list before clicking on the generate button, so it can allow the titles to load into the window.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [{
+    "matches": ["https://www.imdb.com/user/*/watchlist*"],
+    "all_frames": true,
+    "js": ["thirdParty/jquery-3.3.1.min.js", "background.js"],
+    "css": ["main.css"]
+  }],
+  "manifest_version": 2
+}

@@ -1,0 +1,7 @@
+.inactiveTitle {
+  display: none;
+}
+
+div.activatedTitle {
+  display: block;
+}
