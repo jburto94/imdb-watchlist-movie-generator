@@ -28,3 +28,6 @@ $(document).ready(function() {
         .addClass('activatedTitle');
     }), 8000)
 });
+
+// SetTimeouts are to let the user's page load, but the extension works best when
+// user manually scrolls through list once to let items load.

@@ -5,3 +5,7 @@
 div.activatedTitle {
   display: block;
 }
+
+.generate-random-movie {
+  font-weight: bold;
+}

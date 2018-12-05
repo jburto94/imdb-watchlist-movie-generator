@@ -1,7 +1,19 @@
 {
-  "name": "Imdb Watchlist Randomizer",
+  "name": "Imdb Watchlist Random Movie Generator",
   "version": "1.0",
-  "description": "Chrome extension that randomizes the imdb user's watchlist. Works better if you scroll through your list before clicking on the generate button, so it can allow the titles to load into the window.",
+  "description": "Chrome extension that generates a random movie from the imdb user's watchlist.",
+  "page_action": {
+    "default_icon": {
+      "16": "thirdParty/icon16.png",
+      "32": "thirdParty/icon32.png"
+    }
+  },
+  "icons": {
+    "16": "thirdParty/icon16.png",
+    "32": "thirdParty/icon32.png",
+    "48": "thirdParty/icon48.png",
+    "128": "thirdParty/icon128.png"
+  },
   "permissions": [
     "activeTab"
   ],
