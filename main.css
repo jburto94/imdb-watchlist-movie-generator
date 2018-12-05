@@ -6,6 +6,8 @@ div.activatedTitle {
   display: block;
 }
 
-.generate-random-movie {
+.generate-btn {
   font-weight: bold;
+  cursor: pointer;
+  color: initial;
 }

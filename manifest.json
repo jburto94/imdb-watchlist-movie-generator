@@ -20,7 +20,7 @@
   "content_scripts": [{
     "matches": ["https://www.imdb.com/user/*/watchlist*"],
     "all_frames": true,
-    "js": ["thirdParty/jquery-3.3.1.min.js", "generate.js"],
+    "js": ["generate.js"],
     "css": ["main.css"]
   }],
   "manifest_version": 2
