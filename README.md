@@ -1,4 +1,6 @@
 # imdb-watchlist-movie-generator
+https://chrome.google.com/webstore/detail/imdb-watchlist-random-mov/jlcigechjendaoibkekbdhgpgnndcool?hl=en
+https://addons.mozilla.org/en-US/firefox/addon/imdb-watchlist-random-picker/
 
 ### How it was built
 Using vanilla JS with a few lines of CSS
